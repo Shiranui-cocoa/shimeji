@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/one' , 'OneController@index_one');
+///oneにアクセスしたら
+// OneController の index_oneを実行
